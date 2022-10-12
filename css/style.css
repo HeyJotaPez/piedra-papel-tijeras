@@ -75,12 +75,12 @@ header{
 
 #tablero-jugador{
   position: absolute;
-  left: -40px;
+  left: -65px;
 }
 
 #tablero-cpu{
   position: absolute;
-  right: -55px;
+  right: -95px;
 }
 
 /* ------------------------------Decisiones de jugadores */
