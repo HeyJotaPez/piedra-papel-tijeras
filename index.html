@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Piedra - Papel - Tijeras</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/modal.css">
+</head>
+<body>
+	<header>
+		<h1 class="titulo-piedra">PIEDRA, PAPEL Y TIJERAS</h1>
+	</header>
+	<div class="btn-contenedor">
+		<button id="reiniciar" class="btn-reiniciar">Reiniciar Juego</button>
+	</div>
+	<div class="tablero-puntaje">
+    <div id="tablero-jugador" class="tablero">Jugador</div>
+    <div id="tablero-cpu" class="tablero">Computador</div>
+    <span id="puntaje-jugador">0</span>:<span id="puntaje-cpu">0</span>
+  </div>
+  <div class="decisiones">
+    <div id="piedra" class="decision">
+      <img src="images/piedra.png" alt="">
+    </div>
+    <div id="papel" class="decision">
+      <img src="images/papel.png" alt="">
+    </div>
+    <div id="tijeras" class="decision">
+      <img src="images/tijeras.png" alt="">
+    </div>
+  </div>
+  <h2>Escoge una </h2>
+  <!-- Modal -->
+  <div class="modal">
+    <div id="resultado" class="modal-contenido"></div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
